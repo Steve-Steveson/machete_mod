@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    "  #",
+    " # ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "machete_delight:diamond_machete"
+  }
+}

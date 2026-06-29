@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    "  #",
+    " # ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "machete_delight:golden_machete"
+  }
+}

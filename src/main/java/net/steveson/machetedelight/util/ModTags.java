@@ -11,7 +11,7 @@ import vectorwing.farmersdelight.FarmersDelight;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> MINEABLE_MACHETE = customTag("mineable/machete");
+//        public static final TagKey<Block> MINEABLE_MACHETE = customTag("mineable/machete");
 
 
         private static TagKey<Block> commonTag(String name) {
