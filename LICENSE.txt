@@ -1,8 +1,14 @@
 MIT License
-
 Copyright (c) 2023 NeoForged project
-
 This license applies to the template files as supplied by github.com/NeoForged/MDK
+
+MIT License
+Textures and general idea
+Copyright (c) 2022 Umpaz
+
+MIT License
+Any other code in this mod
+Copyright (c) 2026 Steve_Steveson
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
