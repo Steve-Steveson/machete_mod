@@ -21,14 +21,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
 
-        registerStairsCraftingRecipe(Items.GOLD_INGOT, ModItems.GOLDEN_MACHETE, recipeOutput);
-        registerStairsCraftingRecipe(Items.IRON_INGOT, ModItems.IRON_MACHETE, recipeOutput);
-        registerStairsCraftingRecipe(Items.DIAMOND, ModItems.DIAMOND_MACHETE, recipeOutput);
+        registerMacheteCraftingRecipe(Items.GOLD_INGOT, ModItems.GOLDEN_MACHETE, recipeOutput);
+        registerMacheteCraftingRecipe(Items.IRON_INGOT, ModItems.IRON_MACHETE, recipeOutput);
+        registerMacheteCraftingRecipe(Items.DIAMOND, ModItems.DIAMOND_MACHETE, recipeOutput);
 
 
     }
 
-    private static void registerStairsCraftingRecipe(ItemLike input, DeferredItem<?> output, RecipeOutput recipeOutput){
+    private static void registerMacheteCraftingRecipe(ItemLike input, DeferredItem<?> output, RecipeOutput recipeOutput){
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, output.get())
                 .pattern("  #")
                 .pattern(" # ")
